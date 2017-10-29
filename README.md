@@ -1,2 +1,2 @@
 # acousticVelocity
-A command line utility to calculate acoustic velocity (speed of sound) based on measured temperature.
+A Python utility to calculate acoustic velocity (speed of sound) and speaker delay timings based on measured temperature.
