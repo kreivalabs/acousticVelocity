@@ -5,6 +5,8 @@
 #NOTE: there is no method for factoring in gas density in air. Returned values are suitable
 #for indoor use where temperature and humidity swings are not extreme.
 
+#This script uses Future additions from http://www.python-future.org
+
 #use Future
 from __future__ import absolute_import, division, print_function, unicode_literals
 from builtins import input
