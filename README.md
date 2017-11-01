@@ -1,2 +1,5 @@
 # acousticVelocity
-A Python utility to calculate acoustic velocity (speed of sound) and speaker delay timings based on measured temperature.
+A Python script to calculate acoustic velocity (speed of sound) and speaker delay timings based on measured temperature.
+
+Dependencies: 
+python-future (http://www.python-future.org)
