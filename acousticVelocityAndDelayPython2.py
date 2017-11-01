@@ -1,6 +1,10 @@
 #!/usr/bin/env python
 
-#version 1.1 / 31-October-2017
+#version 1.2 / 01-November-2017
+
+title="Acoustic Velocity and Loudspeaker Delay Calculator"
+print title
+print"=" * 80
 
 #prompt for user input
 temp_fahrenheit = float(input("Enter temperture in degrees Fahrenheit: "))
@@ -18,7 +22,13 @@ feet_milliseconds = meters_seconds * 0.00328084
 #calculate time differential based on acoustic velocity and measured distance
 delay_time = measured_distance / feet_milliseconds
 
-print"Approximate acoustic velocity is", meters_seconds, "m/s, or,", feet_milliseconds, "ft/ms."
-print"Delay time is" , delay_time, "ms."
+#return results
+print"=" * 80
+print"Approximate acoustic velocity is:" 
+print meters_seconds, "m/s, or" 
+print feet_milliseconds, "ft/ms."
+print""
+print"Approximate delay time is" , delay_time, "ms."
+print""
 print"Press <Enter> to exit."
 raw_input()
