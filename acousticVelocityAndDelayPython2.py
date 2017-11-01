@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+#version 1.1 / 31-October-2017
+
 #prompt for user input
 temp_fahrenheit = float(input("Enter temperture in degrees Fahrenheit: "))
 measured_distance = float(input("Enter measured distance between speakers in feet: "))
