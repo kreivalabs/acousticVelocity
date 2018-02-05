@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Version 1.4 / 08-November-2017
+# Version 1.4.1 / 05-February-2018
 
 # Calculate acoustic velocity in air based on temperature. Calculate resulting delay time
 # in milliseconds for a measured distance. Results rounded to two decimal places.
@@ -45,5 +45,5 @@ print(meters_seconds_round, 'm/s, or', feet_milliseconds, 'ft/ms.')
 print()
 print('Approximate delay time is', delay_time_round, 'ms.')
 print()
-print('Press <Enter> to exit.')
+print('Press any key to exit.')
 input()
