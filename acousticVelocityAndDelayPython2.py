@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Version 1.4 / 08-November-2017
+# Version 1.4.1 / 05-February-2018
 
 title="Acoustic Velocity and Loudspeaker Delay Calculator"
 print title
@@ -34,5 +34,5 @@ print meters_seconds_round, "m/s, or", feet_milliseconds_round, "ft/ms."
 print""
 print"Approximate delay time is" , delay_time_round, "ms."
 print""
-print"Press <Enter> to exit."
+print"Press any key to exit."
 raw_input()
